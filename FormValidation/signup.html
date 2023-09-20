@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="\app.js" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <img src="\assets\background.jpg" alt="" /> -->
+      <div class="box1">
+        <form action="" onsubmit="return validateForm() && validateemail()">
+          <h2 class="text-center">Register Yourself</h2>
+
+          <!-- <label for="fname">First Name</label> -->
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <p id="fnameError" class="error"></p>
+
+          <!-- <label for="lname">Last Name</label> -->
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <p id="lnameError" class="error"></p>
+
+          <!-- <label for="lname">Email</label> -->
+          <input type="email" id="email" name="lastname" placeholder="Email" />
+
+          <p id="emailError" class="error"></p>
+
+          <!-- <label for="lname">Email</label> -->
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+
+          <p id="passwordError" class="error"></p>
+
+          <input
+            type="conpassword"
+            id="password2"
+            name="password"
+            placeholder="Confirm Password"
+          />
+          <p id="password2Error" class="error"></p>
+
+          <input class="btn" type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+</head>
+<body>
+  <form id="myForm" onsubmit="return validateForm1() && validateForm2()">
+    <label for="input1">Input 1:</label>
+    <input type="text" id="input1" name="input1"><br>
+
+    <label for="input2">Input 2:</label>
+    <input type="text" id="input2" name="input2"><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="your-script.js"></script>
+</body>
+</html> -->
