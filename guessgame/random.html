@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="design">
+        <h1>Guess the Content</h1>
+        <p id="outputText">Please enter the random number between 1-10.</p>
+        <input id="userinput" />
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="img-container">
+        <img src="mistery.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- <script>
+      let submit = document.getElementById("submit");
+      let reset = document.getElementById("reset");
+      let output = document.getElementById("outputText");
+      let number = Math.floor(Math.random() * 10 + 1);
+
+      function checkNumber() {
+        // Prevent the default form submission behavior
+        let userinput = document.getElementById("userinput").value;
+        if (userinput == number) {
+          alert("Congrats you Win");
+        } else if (userinput < number) {
+          alert("No is too Low");
+        } else {
+          alert("No is too High");
+        }
+      }
+
+      submit.addEventListener("click", checkNumber);
+      reset.addEventListener("click", function () {
+        location.reload();
+      });
+    </script> -->
+
+    <script src="demo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: black;
+  font-weight: 600;
+  background-color: mediumturquoise;
+}
+.design {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+
+  gap: 15px;
+
+  border: 2px;
+  border-style: solid;
+  border-color: brown;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.design,
+.img-container {
+  flex: 1;
+  max-width: 100%;
+}
