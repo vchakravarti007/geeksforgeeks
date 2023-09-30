@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.container div {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #333;
+  width: 30%;
+  height: 35%;
+  background-color: #e23030;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#rollButton {
+  padding: 20px;
+  color: antiquewhite;
+  background-color: green;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+#newGame {
+  padding: 20px;
+  color: antiquewhite;
+  background-color: green;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #128d4b;
+  font-weight: 700;
+  padding: 2%;
+  /* background-image: linear-gradient(45deg, #85ffbd 0%, #efe808 100%); */
+  /* padding: 40px; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 4%;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 2rem;
+  font-weight: 600px;
+}
